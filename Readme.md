@@ -1,5 +1,5 @@
 <h3>Abstractive summarization using bert as encoder and transformer decoder</h3>
-
+I used other's document to obtain a BERTabs-chinese
 I have used a text generation library called Texar , Its a beautiful library with a lot of abstractions, i would say it to be 
 scikit learn for text generation problems.
 
@@ -34,14 +34,6 @@ Step 2:
 <b>python main.py</b>
 
 Configurations for the model can be changes from config.py file
-
-Step 3:
-Inference 
-Run the command <b>python inference.py</b>
-This code runs a flask server 
-Use postman to send the POST request @http://your_ip_address:1118/results
-with two form parameters story,summary
-
 
 
 </pre>
